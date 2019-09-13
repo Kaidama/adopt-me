@@ -1,11 +1,10 @@
-import React from 'react';
-export default function Pet  ({ name, animal, breed })  {
-return (
+import React from "react";
+export default function Pet({ name, animal, breed }) {
+  return (
     <div>
-        <h1>Name: {name}</h1>
-        <h2>Type: {animal}</h2>
-        <h2>{breed}</h2>
+      <h1>Name: {name}</h1>
+      <h2>Type: {animal}</h2>
+      <h2>{breed}</h2>
     </div>
-)
-};
-
+  );
+}
